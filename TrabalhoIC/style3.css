@@ -1,0 +1,67 @@
+.painels {
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .quadro-informacao {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 2rem;
+
+  }
+  
+  .quadro-informacao:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra ao passar o mouse */
+  }
+  
+  .quadro-cabecalho {
+    margin-bottom: 10px;
+  }
+  
+  .titulo {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .descricao {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .quadro-rodape {
+    text-align: right;
+  }
+  
+  .botao-acao {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-acao:hover {
+    background-color: #0056b3;
+  }
+
+ 
+  .introducao, .conclusao, .beneficios {
+  margin-top: 8px;
+
+  }
+ 
